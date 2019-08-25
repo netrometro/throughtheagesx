@@ -18,10 +18,11 @@ import { TimelineComponent } from './timeline/timeline.component';
 import { MenuplayersComponent } from './menuplayers/menuplayers.component';
 import { CountrystatusComponent } from './countrystatus/countrystatus.component';
 import { CubeComponent } from './cube/cube.component';
+import { BoardcultureComponent } from './countrystatus/boardculture/boardculture.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, AppRoutingModule, ButtonModule, AccordionModule, ProgressBarModule ],
-  declarations: [ AppComponent, CardComponent, TimelineComponent, MenuplayersComponent, CountrystatusComponent, CubeComponent ],
+  declarations: [ AppComponent, CardComponent, TimelineComponent, MenuplayersComponent, CountrystatusComponent, CubeComponent, BoardcultureComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
