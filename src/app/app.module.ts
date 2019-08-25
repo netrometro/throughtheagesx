@@ -21,10 +21,11 @@ import { CubeComponent } from './cube/cube.component';
 import { BoardcultureComponent } from './countrystatus/boardculture/boardculture.component';
 import { BoardtecnologyComponent } from './countrystatus/boardtecnology/boardtecnology.component';
 import { BoardmilitaryComponent } from './countrystatus/boardmilitary/boardmilitary.component';
+import { DeckhorizontalComponent } from './deckhorizontal/deckhorizontal.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, AppRoutingModule, ButtonModule, AccordionModule, ProgressBarModule ],
-  declarations: [ AppComponent, CardComponent, TimelineComponent, MenuplayersComponent, CountrystatusComponent, CubeComponent, BoardcultureComponent, BoardtecnologyComponent, BoardmilitaryComponent ],
+  declarations: [ AppComponent, CardComponent, TimelineComponent, MenuplayersComponent, CountrystatusComponent, CubeComponent, BoardcultureComponent, BoardtecnologyComponent, BoardmilitaryComponent, DeckhorizontalComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
