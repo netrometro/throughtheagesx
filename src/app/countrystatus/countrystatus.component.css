@@ -1,8 +1,4 @@
-.ui-tabview-title {
+.ui-accordion-header a {
   background-color: orange !important;
-}
-
-.corborda {
-  background-color: orange;
   border-color: orange;
 }
