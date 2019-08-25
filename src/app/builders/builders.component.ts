@@ -10,8 +10,8 @@ export class BuildersComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    let element = document.getElementById("builders");
-    element.scrollTop = element.scrollHeight;
+    //let element = document.getElementById("builders");
+    //element.scrollTop = element.scrollHeight;
   }
 
 }
