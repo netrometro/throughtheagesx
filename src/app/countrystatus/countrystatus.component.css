@@ -1,4 +1,29 @@
-.ui-accordion-header a {
-  background-color: orange !important;
-  border-color: orange;
+.cultura .ui-accordion-header a {
+  background-color: purple !important;
+  color: white !important;
+  border: none !important;
+}
+
+.cultura .ui-accordion-content {
+  background-color: rgb(255, 150, 255) !important;
+}
+
+.tecnologia .ui-accordion-header a {
+  background-color: blue !important;
+  color: white !important;
+  border: none !important;
+}
+
+.tecnologia .ui-accordion-content {
+  background-color: rgb(150, 150, 255) !important;
+}
+
+.militar .ui-accordion-header a {
+  background-color: rgb(112, 0, 0) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.militar .ui-accordion-content {
+  background-color: rgb(255, 150, 155) !important;
 }
