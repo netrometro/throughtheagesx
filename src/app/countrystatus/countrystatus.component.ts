@@ -12,9 +12,10 @@ import { MenuItem } from 'primeng/api';
 })
 export class CountrystatusComponent implements OnInit {
     
-  culture: number[];
+  pointsCulture: number = 20;
+  statusCulture: number = 15;
 
   ngOnInit() {
-    
+
   }
 }

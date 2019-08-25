@@ -10,6 +10,7 @@ import { TabMenuModule } from 'primeng/tabmenu';
 import { MenuModule } from 'primeng/menu';
 import { TabViewModule } from 'primeng/tabview';
 import { AccordionModule } from 'primeng/accordion';
+import { ProgressBarModule } from 'primeng/progressbar';
 
 import { AppComponent } from './app.component';
 import { CardComponent } from './cards/card/card.component';
@@ -19,7 +20,7 @@ import { CountrystatusComponent } from './countrystatus/countrystatus.component'
 import { CubeComponent } from './cube/cube.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, AppRoutingModule, ButtonModule, TabMenuModule, MenuModule, TabViewModule, AccordionModule ],
+  imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, AppRoutingModule, ButtonModule, AccordionModule, ProgressBarModule ],
   declarations: [ AppComponent, CardComponent, TimelineComponent, MenuplayersComponent, CountrystatusComponent, CubeComponent ],
   bootstrap:    [ AppComponent ]
 })

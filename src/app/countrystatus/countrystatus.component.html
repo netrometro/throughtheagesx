@@ -1,15 +1,54 @@
 <p-accordion [styleClass]="'cultura'">
     <p-accordionTab header="Cultura" >
-       <div class="p-grid">
-         <div class="p-col">
-           
-         </div>
-       </div>
+      
+       <table style="100% !important">
+         <tr>
+          <td>
+           Player 1:<br />
+           Pontos: {{ pointsCulture }}/150<br />
+           <p-progressBar [value]="pointsCulture"></p-progressBar><br />
+           Cultura: {{ statusCulture }}/40
+           <p-progressBar [value]="statusCulture"></p-progressBar><br />
+          </td>
+          <td>
+           Player 1:<br />
+           Pontos: {{ pointsCulture }}/150<br />
+           <p-progressBar [value]="pointsCulture"></p-progressBar><br />
+           Cultura: {{ statusCulture }}/40
+           <p-progressBar [value]="statusCulture"></p-progressBar><br />
+          </td>
+          <td>
+           Player 1:<br />
+           Pontos: {{ pointsCulture }}/150<br />
+           <p-progressBar [value]="pointsCulture"></p-progressBar><br />
+           Cultura: {{ statusCulture }}/40
+           <p-progressBar [value]="statusCulture"></p-progressBar><br />
+          </td>
+          <td>
+           Player 1:<br />
+           Pontos: {{ pointsCulture }}/150<br />
+           <p-progressBar [value]="pointsCulture"></p-progressBar><br />
+           Cultura: {{ statusCulture }}/40
+           <p-progressBar [value]="statusCulture"></p-progressBar><br />
+          </td>
+         </tr>
+       </table>
+
     </p-accordionTab>
 </p-accordion>
 <p-accordion [styleClass]="'tecnologia'">
     <p-accordionTab header="Tecnologia">
-        Content 2
+        <div class="p-grid">
+            <div class="p-col-4">4</div>
+            <div class="p-col">1 </div>
+            <div class="p-col">1 </div>
+            <div class="p-col">1 </div>
+            <div class="p-col">1 </div>
+            <div class="p-col">1 </div>
+            <div class="p-col">1 </div>
+            <div class="p-col">1 </div>
+            <div class="p-col">1 </div>
+        </div>
     </p-accordionTab>
 </p-accordion>
 <p-accordion [styleClass]="'militar'">
