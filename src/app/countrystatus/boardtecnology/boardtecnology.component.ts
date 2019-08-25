@@ -7,6 +7,9 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None
 })
 export class BoardtecnologyComponent implements OnInit {
+    
+  pointsCulture: number = 20;
+  statusCulture: number = 15;
 
   constructor() { }
 
