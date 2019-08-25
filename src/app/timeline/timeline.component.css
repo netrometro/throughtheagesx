@@ -27,3 +27,15 @@
 app-card {
   display: inline-block;
 }
+
+
+
+.timelinecss .ui-accordion-header a {
+  background-color: rgb(100, 100, 100) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.timelinecss .ui-accordion-content {
+  background-color: rgb(190, 190, 190) !important;
+}
