@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import {ViewEncapsulation} from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 import { MenuItem } from 'primeng/api';
 
@@ -11,9 +10,6 @@ import { MenuItem } from 'primeng/api';
   encapsulation: ViewEncapsulation.None
 })
 export class CountrystatusComponent implements OnInit {
-    
-  pointsCulture: number = 20;
-  statusCulture: number = 15;
 
   ngOnInit() {
 
