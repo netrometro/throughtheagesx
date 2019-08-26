@@ -1,10 +1,5 @@
 <div class="deck">
   <div class="line">
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
+    <app-card *ngFor="let card of cards" [base64]="card"></app-card>
   </div>
 </div>

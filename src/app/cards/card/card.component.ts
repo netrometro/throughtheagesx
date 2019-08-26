@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-card',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
-  constructor() { }
+  @Input() base64;
+  image;
+
+  constructor(private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
+    this.image = this.sanitizer.bypassSecurityTrustStyle(`${this.base64}`);
+    this.image = this.image.changingThisBreaksApplicationSecurity;
   }
 
 }

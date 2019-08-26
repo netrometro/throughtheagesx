@@ -24,10 +24,11 @@ import { BoardmilitaryComponent } from './countrystatus/boardmilitary/boardmilit
 import { DeckhorizontalComponent } from './deckhorizontal/deckhorizontal.component';
 import { BoardComponent } from './board/board.component';
 import { BuildersComponent } from './builders/builders.component';
+import { CardA01Component } from './cards/card-a01/card-a01.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, AppRoutingModule, ButtonModule, AccordionModule, ProgressBarModule ],
-  declarations: [ AppComponent, CardComponent, TimelineComponent, MenuplayersComponent, CountrystatusComponent, CubeComponent, BoardcultureComponent, BoardtecnologyComponent, BoardmilitaryComponent, DeckhorizontalComponent, BoardComponent, BuildersComponent ],
+  declarations: [ AppComponent, CardComponent, TimelineComponent, MenuplayersComponent, CountrystatusComponent, CubeComponent, BoardcultureComponent, BoardtecnologyComponent, BoardmilitaryComponent, DeckhorizontalComponent, BoardComponent, BuildersComponent, CardA01Component ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
