@@ -1,3 +1,17 @@
 .militaryprogress .ui-progressbar .ui-progressbar-value {
   background-color:  rgb(112, 0, 0);
 }
+
+.militarydeck {
+  min-width: 100%;
+
+  overflow-x: auto;
+  white-space: nowrap;
+
+  background-color: rgba(112, 0, 0, 0.4);
+}
+
+.mili {
+  display: inline-block;
+  float: none;
+}
