@@ -1,0 +1,40 @@
+.handplayer {
+  min-width: 100%;
+
+  overflow-x: auto;
+  white-space: nowrap;
+
+  background-color: rgba(160, 120, 0, 0.4);
+}
+
+.era {
+  display: inline-block;
+  float: none;
+}
+
+.era span {
+  display: inline-block;
+
+  min-width:  100px !important;
+
+  margin: 5px;
+  
+  text-align: center; 
+}
+
+app-card {
+  display: inline-block;
+}
+
+
+
+.handplayercss .ui-accordion-header a {
+  background-color: rgb(160, 120, 0) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.handplayercss .ui-accordion-content {
+  background-color: rgba(160, 120, 0, 0.4) !important;
+  border: none !important;
+}
