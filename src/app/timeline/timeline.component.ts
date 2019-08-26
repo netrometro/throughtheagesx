@@ -8,8 +8,6 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class TimelineComponent implements OnInit {
 
-  cards = ['Windstorm', 'Bombasto', 'Magneta', 'Tornado'];
-
   constructor() { }
 
   ngOnInit() {
