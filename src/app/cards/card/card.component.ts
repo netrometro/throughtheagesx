@@ -8,6 +8,8 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class CardComponent implements OnInit {
 
+  display: boolean = false;
+
   @Input() base64;
   image;
 
@@ -18,4 +20,7 @@ export class CardComponent implements OnInit {
     this.image = this.image.changingThisBreaksApplicationSecurity;
   }
 
+  showDialog() {
+    this.display = true;
+  }
 }

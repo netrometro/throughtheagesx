@@ -1,2 +1,5 @@
-<button pButton type="button" label="" class="card ui-button-raised ui-button-warning" 
+<button pButton type="button" label="" class="card ui-button-raised ui-button-warning" (click)="showDialog()" 
 [style.background-image]="'url(data:image/png;base64,' + image + ')'"></button>
+
+<p-dialog [(visible)]="display" [style]="{width: '150px', height: '200px'}" 
+[style.background-image]="'url(data:image/png;base64,' + image + ')'"></p-dialog>
