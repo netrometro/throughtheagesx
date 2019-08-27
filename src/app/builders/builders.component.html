@@ -1,37 +1,17 @@
 <div class="p-grid">
   <div class="p-col-fixed builders">
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
+    <app-card *ngFor="let mili of military" [base64]="mili"></app-card>
   </div>
   <div class="p-col-fixed builders">
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
+    <app-card *ngFor="let agri of agriculture" [base64]="agri"></app-card>
   </div>
   <div class="p-col-fixed builders">
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
+    <app-card *ngFor="let mine of mining" [base64]="mine"></app-card>
   </div>
   <div class="p-col-fixed builders">
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
+    <app-card *ngFor="let cult of culture" [base64]="cult"></app-card>
   </div>
   <div class="p-col-fixed builders">
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
-    <app-card class="card"></app-card>
+    <app-card *ngFor="let tech of technology" [base64]="tech"></app-card>
   </div>
 </div>
