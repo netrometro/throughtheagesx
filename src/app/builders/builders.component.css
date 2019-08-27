@@ -1,9 +1,10 @@
 .builders {
-  width: 145px;
+  width: 116px;
   max-height: 400px;
   min-height: 400px;
 
   overflow-y: scroll;
+  
 
   background-color: peru;
 }
