@@ -10,14 +10,17 @@ export class CardComponent implements OnInit {
 
   display: boolean = false;
 
+  @Input() color;
   @Input() base64;
   image;
 
   constructor(private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
-    this.image = this.sanitizer.bypassSecurityTrustStyle(`${this.base64}`);
-    this.image = this.image.changingThisBreaksApplicationSecurity;
+    if (this.base64!="") {
+      this.image = this.sanitizer.bypassSecurityTrustStyle(`${this.base64}`);
+      this.image = this.image.changingThisBreaksApplicationSecurity;
+    }
   }
 
   showDialog() {

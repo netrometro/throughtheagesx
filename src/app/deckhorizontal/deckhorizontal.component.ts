@@ -8,10 +8,18 @@ import { Component, OnInit, Input } from '@angular/core';
 export class DeckhorizontalComponent implements OnInit {
 
   @Input() cards: string[];
+  colors: string[] = [];
 
-  constructor() { }
+  constructor() { 
+    this.colors[0] = "green";
+    this.colors[1] = "peru";
+    this.colors[2] = "white";
+    this.colors[3] = "yellow";
+    this.colors[4] = "orange";
+  }
 
   ngOnInit() {
+
   }
 
 }

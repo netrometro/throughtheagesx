@@ -11,7 +11,7 @@ import { MenuModule } from 'primeng/menu';
 import { TabViewModule } from 'primeng/tabview';
 import { AccordionModule } from 'primeng/accordion';
 import { ProgressBarModule } from 'primeng/progressbar';
-import { DialogModule } from 'primeng/dialog';
+import { LightboxModule } from 'primeng/lightbox';
 
 import { AppComponent } from './app.component';
 import { CardComponent } from './cards/card/card.component';
@@ -29,7 +29,7 @@ import { CardA01Component } from './cards/card-a01/card-a01.component';
 import { HandplayerComponent } from './handplayer/handplayer.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, AppRoutingModule, ButtonModule, AccordionModule, ProgressBarModule, DialogModule ],
+  imports:      [ BrowserModule, FormsModule, BrowserAnimationsModule, AppRoutingModule, ButtonModule, AccordionModule, ProgressBarModule, LightboxModule ],
   declarations: [ AppComponent, CardComponent, TimelineComponent, MenuplayersComponent, CountrystatusComponent, CubeComponent, BoardcultureComponent, BoardtecnologyComponent, BoardmilitaryComponent, DeckhorizontalComponent, BoardComponent, BuildersComponent, CardA01Component, HandplayerComponent ],
   bootstrap:    [ AppComponent ]
 })

@@ -26,10 +26,10 @@
 
 .era span {
   display: inline-block;
-
+  
   min-width:  100px !important;
 
-  margin: 22px;
+  margin: 2px;
   
   text-align: center; 
 }
