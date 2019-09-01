@@ -7,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BoardComponent implements OnInit {
 
-  cards: string[] = ["","","","",""];
+  colors: string[] = [];
 
   constructor() {
-    
+    this.colors[0] = "green";
+    this.colors[1] = "peru";
+    this.colors[2] = "white";
+    this.colors[3] = "blue";
+    this.colors[4] = "yellow";
+    this.colors[5] = "orange";
   }
 
   ngOnInit() {

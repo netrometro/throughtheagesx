@@ -20,8 +20,4 @@ export class CardComponent implements OnInit {
       this.image = this.image.changingThisBreaksApplicationSecurity;
     }
   }
-
-  showDialog() {
-    console.log(this.color);
-  }
 }
