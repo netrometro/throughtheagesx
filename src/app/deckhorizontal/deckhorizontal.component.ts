@@ -15,7 +15,7 @@ export class DeckhorizontalComponent implements OnInit {
     this.colors[1] = "peru";
     this.colors[2] = "white";
     this.colors[3] = "yellow";
-    this.colors[4] = "orange";
+    this.colors[4] = "blue";
   }
 
   ngOnInit() {

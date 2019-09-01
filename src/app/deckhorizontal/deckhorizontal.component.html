@@ -1,5 +1,5 @@
 <div class="deck">
   <div class="line">
-    <app-card *ngFor="let card of cards" [base64]="card" [color]="colors[index]"></app-card>
+    <app-card *ngFor="let card of cards; let i=index" [base64]="card" [color]="colors[i]"></app-card>
   </div>
 </div>

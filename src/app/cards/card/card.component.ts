@@ -8,8 +8,6 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class CardComponent implements OnInit {
 
-  display: boolean = false;
-
   @Input() color;
   @Input() base64;
   image;
@@ -24,6 +22,6 @@ export class CardComponent implements OnInit {
   }
 
   showDialog() {
-    this.display = true;
+    console.log(this.color);
   }
 }
